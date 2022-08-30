@@ -21,7 +21,7 @@ spring:
 
 logging:
   level:
-    cn.enjoy.mapper: debug
+    com.zhaohu.mapper: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -35,7 +35,7 @@ eureka:
 
 info:
   app.name: microcloud-provider-product
-  company.name: enjoy
+  company.name: zhaohu
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
 
@@ -65,7 +65,7 @@ spring:
 
 logging:
   level:
-    cn.enjoy.mapper: debug
+    com.zhaohu.mapper: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -79,7 +79,7 @@ eureka:
 
 info:
   app.name: microcloud-config-product-client
-  company.name: enjoy
+  company.name: zhaohu
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
 
